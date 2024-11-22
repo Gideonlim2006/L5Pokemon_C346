@@ -9,7 +9,7 @@ const Add = ({navigation}) => {
     const [image, setImage] = useState('');
 
     return (
-        <View style={{padding:10}}>
+        <View style={{padding:10, justifyContent:"center",  flex:1, backgroundColor: "#EBE8FC"}}>
             <View style={{padding:10}}>
                 <Text style={{fontWeight: "bold"}}>Name:</Text>
                 <TextInput style={{borderWidth: 1}} onChangeText={(text) => setName(text)} />

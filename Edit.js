@@ -7,7 +7,7 @@ const Edit = ({navigation, route}) => {
     const [image, setImage] = useState(route.params.image);
 
     return(
-        <View style={{padding:10}}>
+        <View style={{padding:10, justifyContent:"center", flex:1, backgroundColor: "#EBE8FC"}}>
             <View style={{padding:10}}>
                 <Text style={{fontWeight: "bold"}}>Name:</Text>
                 <TextInput style={{borderWidth: 1}} value={name} onChangeText={(text) => setName(text)} />
